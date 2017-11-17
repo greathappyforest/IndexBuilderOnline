@@ -1,0 +1,22 @@
+CREATE SCHEMA `searchads` ;
+
+CREATE TABLE `searchads`.`ad` (
+  `adId` INT NOT NULL AUTO_INCREMENT,
+  `campaignId` INT NULL,
+  `keyWords` VARCHAR(1024) NULL,
+  `bidPrice` DOUBLE NULL,
+  `price` DOUBLE NULL,
+  `thumbnail` MEDIUMTEXT NULL,
+  `description` MEDIUMTEXT NULL,
+  `brand` VARCHAR(100) NULL,
+  `detail_url` MEDIUMTEXT NULL,
+  `category` VARCHAR(1024) NULL,
+  `title` VARCHAR(2048) NULL,
+  PRIMARY KEY (`adId`));
+
+  
+  
+  CREATE TABLE `searchads`.`campaign` (
+  `campaignId` INT NOT NULL,
+  `budget` DOUBLE NULL,
+  PRIMARY KEY (`campaignId`));

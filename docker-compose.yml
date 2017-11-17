@@ -1,0 +1,17 @@
+memcached:
+  image: memcached
+  ports:
+    - "11211:11211"
+
+mysql:
+  image: mysql
+  ports:
+    - "3306:3306"
+  environment:
+    MYSQL_ROOT_PASSWORD: password
+
+rabbitmq:
+  image: rabbitmq:3.6.1-management
+  ports:
+    - "5672:5672"
+    - "15672:15672"

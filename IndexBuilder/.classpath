@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/home/vagrant/eclipse-workspace/javalib/spymemcached-2.12.1.jar"/>
+	<classpathentry kind="lib" path="/home/vagrant/eclipse-workspace/javalib/slf4j-simple-1.7.22.jar"/>
+	<classpathentry kind="lib" path="/home/vagrant/eclipse-workspace/javalib/slf4j-api-1.7.21.jar"/>
+	<classpathentry kind="lib" path="/home/vagrant/eclipse-workspace/javalib/servlet-api-3.1.jar"/>
+	<classpathentry kind="lib" path="/home/vagrant/eclipse-workspace/javalib/mysql-connector-java-5.1.40-bin.jar"/>
+	<classpathentry kind="lib" path="/home/vagrant/eclipse-workspace/javalib/lucene-suggest-4.0.0.jar"/>
+	<classpathentry kind="lib" path="/home/vagrant/eclipse-workspace/javalib/lucene-queryparser-4.0.0.jar"/>
+	<classpathentry kind="lib" path="/home/vagrant/eclipse-workspace/javalib/lucene-core-4.0.0.jar"/>
+	<classpathentry kind="lib" path="/home/vagrant/eclipse-workspace/javalib/lucene-analyzers-common-4.0.0.jar"/>
+	<classpathentry kind="lib" path="/home/vagrant/eclipse-workspace/javalib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="/home/vagrant/eclipse-workspace/javalib/jsoup-1.10.1.jar"/>
+	<classpathentry kind="lib" path="/home/vagrant/eclipse-workspace/javalib/json-20160807.jar"/>
+	<classpathentry kind="lib" path="/home/vagrant/eclipse-workspace/javalib/jackson-databind-2.8.3.jar"/>
+	<classpathentry kind="lib" path="/home/vagrant/eclipse-workspace/javalib/jackson-core-2.8.3.jar"/>
+	<classpathentry kind="lib" path="/home/vagrant/eclipse-workspace/javalib/jackson-annotations-2.8.3.jar"/>
+	<classpathentry kind="lib" path="/home/vagrant/eclipse-workspace/javalib/amqp-client-4.1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
