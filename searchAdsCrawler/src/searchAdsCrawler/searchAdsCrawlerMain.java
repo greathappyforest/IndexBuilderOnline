@@ -32,7 +32,7 @@ public class searchAdsCrawlerMain {
 
 	        mapper = new ObjectMapper();
 
-	        String proxyFilePath = "../proxylist_bittiger.csv";
+	        String proxyFilePath = "../proxylist.csv";
 
 	        ConnectionFactory factory = new ConnectionFactory();
 	        factory.setHost("localhost");
